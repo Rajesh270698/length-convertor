@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length Convertor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h2>CM to meter</h2>
+        <div class="inputdiv">
+            <input type="text" id="input" placeholder="enter the cm">
+        </div>
+        <div>
+        <button type="sumbit" onclick="convert()">Convert to inches
+    </div>
+    <div id="result">
+
+    </div>
+    </div>
+    <script>
+        function convert() {
+
+            let cmVal = Number(document.getElementById("input").value)
+            let inVal = cmVal / 2.54
+            let result = document.getElementById("result")
+            result.innerHTML = inVal.toFixed(2) + "inches"
+        }
+    </script>
+
+
+
+</body>
+
+</html>

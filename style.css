@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: yellowgreen;
+    size: 30rem;
+}
+
+#container{
+    margin: 30% ;
+    
+    
+    
+    
+
+
+}
+
+.inputdiv{
+    padding: 5px;
+    justify-content: center;
+}
