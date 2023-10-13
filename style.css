@@ -5,11 +5,15 @@
 }
 body{
     background-color: yellowgreen;
-    size: 30rem;
+    
 }
 
 #container{
-    margin: 30% ;
+    margin: 100px 500px;
+    padding: 100px;
+    border-radius: 20px;
+    background-color: white;
+    
     
     
     
