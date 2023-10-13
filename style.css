@@ -13,16 +13,19 @@ body{
     padding: 100px;
     border-radius: 20px;
     background-color: white;
-    
-    
-    
-    
-    
+}
 
-
+h2{
+    padding: 10px;
 }
 
 .inputdiv{
-    padding: 5px;
-    justify-content: center;
+    padding: 10px;
+}
+
+button{
+    border-radius: 5rem;
+    font-size: 20px;
+
+
 }
