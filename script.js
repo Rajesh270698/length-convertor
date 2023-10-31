@@ -1,5 +1,3 @@
-
-
 function convert() {
 
     let cmVal = Number(document.getElementById("input").value)
